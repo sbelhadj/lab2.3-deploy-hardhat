@@ -49,26 +49,18 @@ Avant de commencer ce lab, assurez-vous d'avoir configuré votre environnement c
 
 #### 1. Préparer l'environnement
 
-Installer les dépendances en utilisant npm :  
-  
-```bash  
-cd lab-instant-payment-hub
 
-npm install
-
-```
+Create a new Hardhat project
+En suivant : https://hardhat.org/tutorial/creating-a-new-hardhat-project
 
 1.  Vérifier la configuration de Hardhat :  
       
-    
 
 -   Assurez-vous que vous avez le fichier hardhat.config.js configuré pour Sepolia comme suit :  
       
     
 
 ```javascript  
-require('@nomiclabs/hardhat-ethers');
-
   
 
 module.exports = {
